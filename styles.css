@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.body-1{
+    background-color:  hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+
+   
+    
+}
+
+.card-container{
+    max-width: 400px;
+     margin: 0 auto;
+     
+     
+   
+    
+}
+
+.card{
+   margin: 2rem 1rem;
+   padding: 20px;
+   background-color:  hsl(216, 50%, 16%);
+   border-radius: 15px;
+    
+}
+
+.img-top img{
+    width: 100%;
+    display: block;
+}
+
+.img-top{
+    overflow: hidden;
+    border-radius: 13px;
+    position: relative;
+}
+
+.img-overlay img{
+    position: absolute;
+    width: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.img-overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    display: none;
+
+}
+
+.img-top:hover .img-overlay{
+    display: block;
+
+}
+
+
+.content{
+    line-height: 1.5;
+}
+
+h2{
+    color: white;
+    padding-top: 10px;
+}
+
+p{
+    color:  hsl(215, 51%, 70%);
+    padding-top: 10px;
+    font-size: 18px;
+    
+}
+
+table .eth-1{
+    color: hsl(178, 100%, 50%);
+    font-size: 15px;
+    padding-top: 30px;   
+
+
+}
+.clock-1 {
+    padding-left: 130px;
+    padding-top: 30px;
+    color: hsl(215, 51%, 70%);
+}
+
+.author-img img{
+    width: 30px;
+    height: 30px;
+    padding-top: 0;
+    
+   
+    
+}
+
+.author-img{
+    border: 1px solid white;
+    border-radius: 100px;
+    
+    
+}
+
+.author-text{
+    padding-left: 10px;
+    color: hsl(215, 51%, 70%);
+}
+
+.table-2{
+    padding-top: 10px;
+}
+
+
+hr{
+    margin-top: 20px;
+    color: hsl(215, 32%, 27%);
+}
